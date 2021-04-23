@@ -90,7 +90,7 @@ function chengeTz(node, f) {
     if (f <= 6) {
       node.src = changImg(f);
     } else {
-      f1 = 1;
+      f = 1;
       node.src = changImg(f);
     }
   });
